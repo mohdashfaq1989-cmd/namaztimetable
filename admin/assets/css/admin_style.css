@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css?family=Play:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Basic&display=swap');
+
+body {
+    color: #333333; 
+    background-image: linear-gradient(314deg, #57a357 0%, #004225 74%) !important
+}
+.dashboard-boxes { 
+    background: #6fd271 !important;
+    border-radius: 15px;
+}
+aside#left-panel {
+    background-color: #77dd77 !important;
+    background-image: linear-gradient(314deg, #77dd77 0%, #004225 74%) !important;
+}
+#header { 
+    background-color: #77dd77 !important;
+    background-image: linear-gradient(314deg, #77dd77 0%, #004225 74%) !important; 
+}
+#ribbon {
+    background-color: #77dd77 !important;
+    background-image: linear-gradient(314deg, #77dd77 0%, #004225 74%) !important; 
+}
+.page-footer{
+    background-color: #77dd77 !important;
+    background-image: linear-gradient(314deg, #77dd77 0%, #004225 74%) !important; 
+}
+.jarviswidget-color-blueDark>header {
+    border-color: #63c269 !important;
+    background: #5ab562;
+    color: #fff;
+}
+.namazTab .row 
+ {
+    margin-bottom: 15px;
+}
+
+a.btn,.btn { 
+    border-radius: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+    font-family: 'Play', sans-serif !important;
+}
+
+p,
+span,
+a,
+li,
+li a,
+label,
+input,
+textarea,
+td {
+    font-family: 'Basic', sans-serif !important;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    word-break: break-all;
+}
+
+p,
+label,
+input,
+textarea,
+th,
+td {
+    font-size: 16px;
+}
+
+a.btn {
+    font-size: 16px;
+    padding: 8px 30px;
+    margin-bottom: 0;
+}
+
+.btn-lg {
+    font-size: 20px !important;
+    padding: 12px 30px !important;
+    border-radius: 40px;
+}
+
+form {
+    margin-bottom: 0 !important;
+}
+
+label {
+    text-transform: capitalize;
+}
+
+.form-control {
+    box-shadow: none !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #1e2a4b !important;
+}
+
+.form-control {
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+.btn {
+    margin-bottom: 4px !important;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.checkbox input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    background: transparent;
+    border: 2px solid #464646;
+    outline: 0;
+    -webkit-appearance: none;
+    position: relative;
+    display: inline-block;
+    top: -6px;
+}
+
+.checkbox input[type="checkbox"]:checked::after {
+    content: '\2714';
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -51%);
+}
+
+th,
+td a.btn {
+    text-transform: capitalize !important;
+}
+
+td a.btn {
+    padding: 4px 20px;
+}
+
+th,
+td {
+    vertical-align: top !important;
+}
+
+.jarviswidget .widget-body {
+    min-height: 70px;
+}
+
+.inline-group .radio {
+    display: inline-block !important;
+    margin-left: 20px;
+}
+
+form .btn,
+.pool-buttons .btn {
+    font-size: 18px !important;
+    padding: 8px 30px !important;
+    text-transform: uppercase;
+    margin-bottom: 0 !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+article header .jarviswidget-ctrls a:last-child,
+article header .widget-toolbar {
+    display: none !important;
+}
+
+/* Header */
+
+#logo {
+    margin: 0 !important;
+    text-align: center !important;
+    padding-top: 6px;
+}
+
+#logo a,
+.footer-logo a {
+    color: #3a3634;
+    text-transform: capitalize;
+    font-family: 'Play', sans-serif !important;
+}
+
+header #logo img {
+    width: 180px;
+}
+
+#sparks li {
+    padding-top: 4px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    #sparks {
+        display: none;
+    }
+}
+
+/*  ==================================
+                Dashboard
+    ================================== */
+.dashboard-boxes {
+    display: inline-block;
+    width: 100%;
+    background: #fff;
+    color: #3a3634;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 0 30px -5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    margin-bottom: 20px;
+}
+
+.dashboard-boxes:hover {
+    box-shadow: 0 -10px 20px -5px rgba(0, 0, 0, 0.1);
+    color: #ff4f4f;
+}
+
+.owner_number {
+    font-size: 48px;
+    line-height: 48px;
+    font-family: 'Play', sans-serif !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .dashboard-boxes h2 {
+        min-height: 60px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .dashboard-boxes h2 {
+        min-height: 70px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1800px) {
+    .dashboard-boxes h2 {
+        min-height: 80px;
+    }
+}
+
+
+
+/*  ==================================
+                Customers
+    ================================== */
+.customers-page .icon-addon .form-control {
+    padding-left: 12px;
+}
+
+
+
+/*  ==================================
+                Application
+    ================================== */
+.application-page td .btn {
+    font-size: 18px !important;
+    padding: 8px 30px !important;
+    text-transform: uppercase;
+    margin-bottom: 0 !important;
+}
+
+/*  ==================================
+                Message
+    ================================== */
+.message-application {
+    position: relative;
+    min-height: 70vh;
+}
+
+.message-body {
+    overflow-y: auto;
+    padding-top: 50px;
+    position: absolute;
+    width: 100%;
+    height:auto !important;
+    padding-bottom: 60px!important;
+    bottom: 0;
+    left: 0;
+}
+.file_btn{
+         height: 100%;
+   width: 100%;
+   opacity: 0;
+   -moz-opacity: 0;
+   filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+   top: 0;
+left: 0;
+position: absolute;
+}
+
+.message-body::-webkit-scrollbar {
+    width: 6px;
+}
+
+.message-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.message-body::-webkit-scrollbar-thumb {
+    background: #1e2a4b;
+}
+
+.message-body::-webkit-scrollbar-thumb:hover {
+    background: #1e2a4b;
+}
+
+.message-body .user-message {
+    margin-bottom: 30px;
+}
+
+.message-body .message-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    border: 1px solid rgba(30, 42, 75, 0.2);
+    float: left;
+    overflow: hidden;
+    background: #1e2a4b;
+    position: relative;
+}
+
+.message-body .message-image img {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.message-body .user-message .message-text {
+    padding-left: 60px;
+}
+
+.message-body .message-text p {
+    margin-bottom: 0;
+}
+
+.message-body .admin-message {
+    text-align: right;
+    margin-bottom: 30px;
+}
+
+.message-body .admin-message .message-image {
+    float: right;
+    background-color: #fff;
+    padding: 3px;
+    border-color: #ff4f4f;
+}
+
+.message-body .admin-message .message-text {
+    padding-right: 60px;
+}
+
+.message-box {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.message-box form {
+    margin-bottom: 0;
+}
+
+.message-box textarea {
+    height: 50px;
+    margin-bottom: 0;
+    resize: none;
+    position: relative;
+    padding-left: 70px;
+    padding-right: 70px;
+    word-break: break-all;
+}
+
+.message-box .attach_btn,
+.message-box .send_btn {
+    display: inline-block;
+    position: absolute;
+    height: 50px;
+    width: 60px;
+    background: #1e2a4b;
+    z-index: 1;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #1e2a4b;
+}
+
+.message-box .attach_btn i,
+.message-box .send_btn i {
+    color: #fff;
+    line-height: 50px;
+    font-size: 24px;
+}
+
+.message-box .send_btn {
+    position: absolute;
+    background: #ff4f4f;
+    right: 0;
+    top: 0;
+    border-color: #ff4f4f;
+}
+
+@media only screen and (max-width: 480px) {
+
+    .message-box .attach_btn,
+    .message-box .send_btn {
+        width: 50px;
+
+    }
+
+    .message-box textarea {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1800px) {
+    .message-application {
+        min-height: 70vh;
+    }
+
+    .message-body {
+        height: 60vh !important;
+    }
+}
+
+@media only screen and (min-width: 1801px) {
+    .message-application {
+        min-height: 70vh;
+    }
+
+    .message-body {
+        height: 60vh !important;
+    }
+}
+
+
+
+
+/*  ==================================
+                Transaction
+    ================================== */
+.transaction-page .icon-addon .form-control {
+    padding-left: 12px;
+}
+
+
+
+/*  ==================================
+                admin-seeting-page
+    ================================== */
+#change_password_area {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .col-xs-6 {
+        width: 100%;
+    }
+}
+
+
+
+
+/*  ==================================
+                Login
+    ================================== */
+
+.login-page {
+    background: url(../images/masjidbg.jpg);
+    position: relative;
+    height: 100vh;
+}
+.login-page::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.login-page .login-form-section {
+    background: green !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 300px;
+}
+.login-page header #logo{
+    width: 100%;
+}
+.login-page header span{
+    font-size: 36px;
+    line-height: 36px;
+}
+.smart-form .label, .smart-form .input{
+    font-size: 16px;
+}
+
+.smart-form footer .btn {
+    float: none;
+    height: auto;
+    margin: 10px 0 0 5px;
+    padding: 0;
+    font-family: 'Basic', sans-serif !important;
+    cursor: pointer;
+    width: 100%;
+}
+.login-page header, .login-page fieldset, .login-page footer{
+    background: rgba(255, 255, 255, 0.9)
+}
+@media only screen and (min-width: 576px){
+    .login-page .login-form-section{
+        width: 400px;
+    }
+}
+
