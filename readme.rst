@@ -1,4 +1,5 @@
-Live URL https://namaztimetable.com/ <br>
+# Live URL https://namaztimetable.com/
+<br>
 # 🕌 Namaz Timetable
 
 A modern, responsive, and SEO-friendly Islamic Prayer Timetable web application built with **CodeIgniter 3** and **MySQL**. The platform provides accurate daily Salah timings, city-wise prayer schedules, Hijri dates, Ramadan calendars, and other useful Islamic resources for users worldwide.
