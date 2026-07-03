@@ -1,71 +1,296 @@
-###################
-What is CodeIgniter
-###################
 Live URL https://namaztimetable.com/
+# 🕌 Namaz Timetable
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+A modern, responsive, and SEO-friendly Islamic Prayer Timetable web application built with **CodeIgniter 3** and **MySQL**. The platform provides accurate daily Salah timings, city-wise prayer schedules, Hijri dates, Ramadan calendars, and other useful Islamic resources for users worldwide.
 
-*******************
-Release Information
-*******************
+Designed with performance, scalability, and search engine optimization in mind, this project is suitable for Islamic organizations, mosques, community websites, and public prayer timetable portals.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+---
 
-**************************
-Changelog and New Features
-**************************
+## ✨ Features
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+### 🕌 Prayer Timings
 
-*******************
-Server Requirements
-*******************
+* Daily Fajr, Dhuhr, Asr, Maghrib, and Isha prayer times
+* Jumu'ah prayer timings
+* Current prayer highlighting
+* Next prayer countdown
+* Monthly prayer timetable
+* City-wise prayer schedules
+* Multiple prayer calculation methods
+* Automatic timezone handling
 
-PHP version 5.6 or newer is recommended.
+---
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+### 🌍 Location Management
 
-************
-Installation
-************
+* Country-wise prayer times
+* State/Province management
+* City-wise prayer timetable
+* Fast city search
+* Favorite city support
+* Location-based prayer timings
+* SEO-friendly city pages
 
-Please see the `installation section <https://codeigniter.com/user_guide/installation/index.html>`_
-of the CodeIgniter User Guide.
+---
 
-*******
-License
-*******
+### 🌙 Islamic Calendar
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+* Hijri Calendar
+* Gregorian Calendar
+* Ramadan Calendar
+* Sehri & Iftar timings
+* Islamic holidays
+* Eid countdown
 
-*********
-Resources
-*********
+---
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+### 🧭 Islamic Tools
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+* Qibla Direction
+* Daily Dua
+* Daily Hadith
+* Quran Verse of the Day
+* Tasbeeh Counter
+* Islamic Date Converter
 
-***************
-Acknowledgement
-***************
+---
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+## 👨‍💼 Admin Panel
+
+A powerful administration panel allows administrators to manage the entire website without editing code.
+
+### Dashboard
+
+* Website statistics
+* Prayer timetable overview
+* User activity summary
+
+### Country Management
+
+* Add countries
+* Edit countries
+* Delete countries
+
+### State Management
+
+* Add states
+* Edit states
+* Delete states
+
+### City Management
+
+* Add cities
+* Update cities
+* Delete cities
+* Bulk import support
+
+### Prayer Timetable
+
+* Add prayer timings
+* Edit prayer timings
+* Monthly schedules
+* Calculation settings
+
+### Content Management
+
+* Pages
+* Blog posts
+* Islamic events
+* Announcements
+* Contact messages
+
+### Website Settings
+
+* General settings
+* Logo & favicon
+* Email configuration
+* SEO settings
+* Social media links
+* Advertisement management
+
+---
+
+## 🚀 Frontend Features
+
+* Responsive design
+* Mobile-friendly interface
+* Fast loading pages
+* Search functionality
+* Clean UI/UX
+* Dynamic navigation
+* Pagination
+* Breadcrumb navigation
+* Social sharing
+* Google Maps integration (optional)
+
+---
+
+## 🔍 SEO Features
+
+* SEO-friendly URLs
+* Dynamic meta titles
+* Dynamic meta descriptions
+* Open Graph tags
+* Canonical URLs
+* XML Sitemap
+* Robots.txt
+* Structured data (Schema.org)
+* Image optimization
+* Internal linking
+* Optimized heading structure
+
+---
+
+## ⚡ Performance
+
+* Lightweight CodeIgniter 3 architecture
+* Optimized MySQL queries
+* Browser caching
+* Lazy-loaded images
+* Compressed CSS & JavaScript
+* Fast page rendering
+* Mobile-first design
+
+---
+
+## 🛠️ Technology Stack
+
+### Backend
+
+* CodeIgniter 3
+* PHP 7.x / PHP 8.x Compatible
+* MVC Architecture
+
+### Frontend
+
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
+* jQuery
+* AJAX
+
+### Database
+
+* MySQL
+
+### Development Tools
+
+* Composer (optional)
+* Git
+* GitHub
+* Apache / Nginx
+
+---
+
+## 📂 Project Structure
+
+```text
+application/
+├── controllers/
+├── models/
+├── views/
+├── helpers/
+├── libraries/
+├── config/
+├── language/
+
+assets/
+├── css/
+├── js/
+├── images/
+├── fonts/
+
+uploads/
+
+system/
+
+index.php
+```
+
+---
+
+## 🔒 Security Features
+
+* MVC architecture
+* CSRF protection
+* XSS filtering
+* SQL Injection prevention using Query Builder
+* Form validation
+* Session management
+* Password hashing
+* Secure authentication
+* Role-based access control
+
+---
+
+## 📱 Browser Compatibility
+
+* Google Chrome
+* Mozilla Firefox
+* Microsoft Edge
+* Safari
+* Opera
+* Android Browser
+* iOS Safari
+
+---
+
+## 📈 Future Improvements
+
+* Progressive Web App (PWA)
+* Android & iOS applications
+* Prayer notification system
+* API support
+* Multi-language support
+* Mosque locator
+* Weather integration
+* AI-powered Islamic assistant
+* Community event management
+* Donation module
+
+---
+
+## 🎯 Ideal For
+
+* Mosques
+* Islamic Centers
+* Religious Organizations
+* Community Websites
+* Prayer Time Portals
+* Educational Institutions
+* Ramadan Information Websites
+
+---
+
+## 🚀 Installation
+
+1. Clone the repository.
+2. Copy the project to your web server.
+3. Create a MySQL database.
+4. Import the provided SQL file.
+5. Update `application/config/database.php` with your database credentials.
+6. Configure `application/config/config.php` with your base URL.
+7. Ensure the `uploads/` directory is writable.
+8. Open the project in your browser.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repository, submit pull requests, or open issues for bug reports and feature requests.
+
+---
+
+## 📄 License
+
+This project is released under the MIT License and is intended to support the development of Islamic web applications and community services.
+
+---
+
+## ❤️ Acknowledgements
+
+Thanks to the CodeIgniter community and all contributors whose open-source tools and libraries helped make this project possible.
+
+May Allah accept this effort and make it beneficial for Muslims around the world.
